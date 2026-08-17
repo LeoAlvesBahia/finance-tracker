@@ -22,12 +22,9 @@ class Category(Base):
     id: Mapped[uuid.UUID] = mapped_column(
         UUID(as_uuid=True), primary_key=True, server_default=text("uuidv7()")
     )
-    name: Mapped[str] = mapped_column(
-        String(25), unique=True
-    )
+    name: Mapped[str] = mapped_column(String(25), unique=True)
     category_type: Mapped[CategoryType] = mapped_column(
-        Enum(CategoryType, 
-             values_callable=lambda x: [e.value for e in x])
+        Enum(CategoryType, values_callable=lambda x: [e.value for e in x])
     )
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
