@@ -15,4 +15,4 @@ Python, FastAPI, PostgreSQL, Docker, Kafka, Kubernetes, AWS, Terraform.
 
 ## Status
 
-Still being defined. No code yet.
+Architecture and v0 scope are settled, see the docs above. No code yet, implementation starts with the foundation milestone.
