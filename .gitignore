@@ -1,0 +1,20 @@
+# Ambiente virtual Python
+.venv/
+
+# Artefatos e caches Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Segredos
+.env
+
+# Contexto do Claude (não vai pro repositório público)
+CLAUDE.md
+
+# SO / editor
+.DS_Store
+.idea/
