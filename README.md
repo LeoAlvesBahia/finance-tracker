@@ -15,4 +15,4 @@ Python, FastAPI, PostgreSQL, Docker, Kafka, Kubernetes, AWS, Terraform.
 
 ## Status
 
-Architecture and v0 scope are settled, see the docs above. No code yet, implementation starts with the foundation milestone.
+Architecture and v0 scope are settled, see the docs above. The foundation milestone is in progress: Python tooling for the `identity` service is set up.
