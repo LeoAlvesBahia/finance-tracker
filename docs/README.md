@@ -7,6 +7,5 @@
 
 ## Conventions
 
-- Written in English.
 - One architecture decision per ADR, in its own file.
 - Accepted ADRs are not rewritten. If a decision changes, a new ADR is created to supersede it.
