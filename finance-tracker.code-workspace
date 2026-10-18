@@ -2,5 +2,15 @@
   "folders": [
     { "name": "root", "path": "." },
     { "name": "identity", "path": "identity" }
-  ]
+  ],
+  "settings": {
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.ruff": "explicit",
+        "source.organizeImports.ruff": "explicit"
+      }
+    }
+  }
 }
