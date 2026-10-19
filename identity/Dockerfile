@@ -2,7 +2,7 @@ FROM ghcr.io/astral-sh/uv:0.12.24-python3.14-trixie-slim AS builder
 WORKDIR /app
 COPY pyproject.toml uv.lock ./
 RUN uv sync --locked --no-dev
-COPY main.py ./
+COPY main.py db.py models.py routers.py schemas.py ./
 
 FROM python:3.14-slim-trixie
 WORKDIR /app
