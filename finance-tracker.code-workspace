@@ -1,0 +1,20 @@
+{
+  "folders": [
+    { "name": "root", "path": "." },
+    { "name": "identity", "path": "services/identity" }
+  ],
+  "settings": {
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.ruff": "explicit",
+        "source.organizeImports.ruff": "explicit"
+      }
+    },
+    "ruff.importStrategy": "fromEnvironment"
+  },
+  "extensions": {
+    "recommendations": ["charliermarsh.ruff", "ms-python.python"]
+  }
+}
