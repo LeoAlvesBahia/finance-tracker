@@ -18,3 +18,4 @@ Each ADR records an architecture decision: the context, what was decided, and th
 | [0004](0004-synchronous-call-then-events.md) | Synchronous call now, events later | Accepted |
 | [0005](0005-kafka-over-rabbitmq.md) | Kafka instead of RabbitMQ | Accepted |
 | [0006](0006-aws-over-gcp.md) | AWS instead of GCP | Accepted |
+| [0007](0007-service-trust.md) | Services trust a JWT signed by identity with an asymmetric key | Accepted |
